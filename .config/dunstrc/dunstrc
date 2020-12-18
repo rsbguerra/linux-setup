@@ -1,0 +1,92 @@
+[global]
+font                  = Sans 10
+markup                = yes
+plain_text            = no
+format                = "<b>%a</b>\n%s\n%b"
+sort                  = no
+indicate_hidden       = yes
+alignment             = left
+bounce_freq           = 0
+show_age_threshold    = -1
+word_wrap             = yes
+ignore_newline        = no
+stack_duplicates      = no
+hide_duplicates_count = yes
+geometry              = "300x50-30+42"
+shrink                = no
+transparency          = 10
+idle_threshold        = 0
+monitor               = 0
+follow                = mouse
+sticky_history        = yes
+history_length        = 15
+show_indicators       = no
+line_height           = 2
+separator_height      = 0
+padding               = 10
+horizontal_padding    = 12
+separator_color       = foreground
+
+startup_notification  = true
+dmenu                 = /usr/bin/dmenu -p dunst:
+browser               = /usr/bin/firefox -new-tab
+
+icon_position = left
+icon_path = /usr/share/icons/Papirus-Dark/16x16/devices/:/usr/share/icons/Adwaita/16x16/status/:/usr/share/icons/Adwaita/16x16/devices/:/usr/share/icons/Papirus-Dark/16x16/status/
+max_icon_size=50
+
+frame_width = 1
+frame_color = "#ffffff"
+
+[shortcuts]
+close     = ctrl+space
+close_all = ctrl+shift+space
+history   = ctrl+grave
+context   = ctrl+shift+period
+
+[urgency_low]
+frame_color = "#191A21"
+foreground  = "#afafaf"
+background  = "#191A21"
+timeout     = 6
+
+[urgency_normal]
+frame_color = "#191A21"
+foreground  = "#afafaf"
+background  = "#191A21"
+#background = "#2B313C"
+timeout     = 6
+
+[urgency_critical]
+frame_color = "#191A21"
+foreground  = "#ffb86c"
+background  = "#191A21"
+#background = "#2B313C"
+timeout     = 6
+
+[spotify]
+appname     = "*Spotify*"
+format      = "%I<b>%a</b>\n%s\n"
+frame_color = "#191A21"
+foreground  = "#1cd45c"
+background  = "#191A21"
+line_height = 10
+timeout     = 6
+
+[discord]
+appname     = "*Spotify*"
+format      = "%I<b>%s</b>\n%b\n"
+frame_color = "#191A21"
+foreground  = "#1db954"
+background  = "#191A21"
+#timeout     = 6
+
+
+# The format of the message.  Possible variables are:
+#   %a  appname
+#   %s  summary
+#   %b  body
+#   %i  iconname (including its path)
+#   %I  iconname (without its path)
+#   %p  progress value if set ([  0%] to [100%]) or nothing
+# Markup is allowed
