@@ -1,0 +1,52 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "shift+alt+space",
+        "command": "editor.action.triggerParameterHints",
+        "when": "editorHasSignatureHelpProvider && editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+space",
+        "command": "-editor.action.triggerParameterHints",
+        "when": "editorHasSignatureHelpProvider && editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+space",
+        "command": "tuareg.sendLine"
+    },
+    {
+        "key": "ctrl+shift+alt",
+        "command": "-tuareg.indentSelection"
+    },
+
+    { 
+        "key": "ctrl+`", 
+        "command": "workbench.action.focusActiveEditorGroup", 
+        "when": "terminalFocus" 
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "shift+alt+tab",
+        "command": "tuareg.indentSelection"
+    },
+    {
+        "key": "ctrl+shift+alt+right",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "ctrl+shift+alt+left",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "ctrl+shift+k ctrl+shift+o",
+        "command": "tuareg.toggleTerminal"
+    },
+    {
+        "key": "ctrl+k ctrl+o",
+        "command": "-tuareg.toggleTerminal"
+    }
+]

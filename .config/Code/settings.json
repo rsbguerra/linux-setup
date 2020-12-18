@@ -1,0 +1,41 @@
+{
+    "files.autoSave": "onFocusChange",
+    
+    "editor.fontSize": 16,
+    "editor.minimap.renderCharacters": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    
+    "vsicons.dontShowNewVersionMessage": true,
+    
+    "window.menuBarVisibility": "toggle",
+
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Monokai",
+
+    "indentRainbow.colors": [
+        "rgba(85,  190, 195, 0.07)",
+        "rgba(235, 95,  135, 0.055)",
+        "rgba(255, 140, 0, 0.07)",
+        "rgba(255, 215, 0, 0.07)",
+        "rgba(130, 255, 130, 0.07)",
+        "rgba(161, 91,  227, 0.07)"
+    ],
+
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "rgb(85,  190, 195)",
+            "rgb(230, 90,  130)",
+            "rgb(255, 140, 0)",
+            "rgb(255, 215, 0)",
+            "rgb(130, 255, 130)",
+            "rgb(161, 91,  227)"
+            
+        ],
+        "rgb(255, 25, 25)"
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
+}
