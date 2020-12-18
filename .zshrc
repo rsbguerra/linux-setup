@@ -110,7 +110,6 @@ export LD_LIBRARY_PATH
 export ANDROID_HOME=$HOME/Android/Sdk
 export ANDROID_SDK_ROOT=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME
-#export CHROMEDRIVER_VERSION=87.0.4280.88 npm install appium
 
 alias i3config="code ~/.config/i3/config"
 alias zshconfig="code ~/.zshrc"
