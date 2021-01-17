@@ -37,6 +37,7 @@ bindsym $mod+m exec spotify
 bindsym $mod+n exec nautilus
 bindsym $mod+p exec masterpdfeditor5
 bindsym $mod+t exec telegram-desktop
+bindsym $mod+Shift+t exec teams
 bindsym $mod+Escape exec i3lock -c 000000
 
 
