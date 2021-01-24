@@ -141,9 +141,3 @@ alias netbeans='/home/rguerra/netbeans-11.1/netbeans/bin/netbeans'
 alias packettracer='/opt/pt/packettracer'
 
 # classes
-alias lpc='cd ~/Documents/UBI/Mestrado/1º\ Ano/LPC'
-alias bd='cd ~/Documents/UBI/Mestrado/1º\ Ano/SGBD'
-alias aa='cd ~/Documents/UBI/Mestrado/1º\ Ano/AA'
-
-alias qs='cd ~/Documents/UBI/Mestrado/1º\ Ano/QS'
-alias qs_badge='cd ~/Documents/UBI/Mestrado/1º\ Ano/QS/Práticas/Badge7'

@@ -38,6 +38,7 @@ bindsym $mod+n exec nautilus
 bindsym $mod+p exec masterpdfeditor5
 bindsym $mod+t exec telegram-desktop
 bindsym $mod+Shift+t exec teams
+bindsym $mod+Shift+f exec ferdi
 bindsym $mod+Escape exec i3lock -c 000000
 
 
