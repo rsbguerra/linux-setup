@@ -1,0 +1,158 @@
+    2  dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$\(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$\(rpm -E %fedora).noarch.rpm
+    5  sudo dnf install discord-installer -y
+    6  sudo dnf install Discord-installer -y
+    9  sudo dnf install udev
+   13  sudo dnf install v4l-utils
+   27  dnf install neofetch
+   28  sudo dnf install neofetch
+   30  sudo dnf install qv4l2
+   37  sudo dnf install chromium
+   55  sudo dnf install i3status
+   58  sudo dnf install i3status
+   67  sudo dnf install i3status
+   73  sudo dnf install xfce4-terminal
+   90  sudo dnf install rpm
+   96  sudo dnf install octave
+   99  sudo dnf install arandr
+  111  sudo dnf install xbacklight
+  113  sudo dnf install python3
+  120  sudo dnf install opam
+  135  sudo dnf install libnotify
+  140  sudo dnf install notification-daemon
+  141  sudo dnf install deadd-notification-center
+  142  sudo dnf install deadd-notification-center-bin
+  143  sudo dnf install dunst
+  192  sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$\(rpm -E %fedora).noarch.rpm \\nhttps://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$\(rpm -E %fedora).noarch.rpm
+  194  sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$\(rpm -E %fedora).noarch.rpm \ https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm\n
+  195  sudo dnf install lpf-spotify-client
+  201  sudo dnf install /var/lib/lpf/rpms/spotify-client/spotify-client-*.rpm
+  203  sudo dnf install playerctl
+  235  sudo dnf install xbacklight
+  293  sudo dnf install alsa-utils 
+  295  sudo dnf install light\n
+  298  sudo dnf install eog
+  323  sudo dnf install lxappearance
+  324  sudo dnf install nnn
+  325  sudo dnf install nnn adb gparted
+  347  sudo dnf install mate-screenshot
+  376  sudo dnf install sensors-detect
+  377  sudo dnf install lm_sensors-
+  378  sudo dnf install lm_sensors-3.5.0-6.fc31.x86_64
+  406  sudo dnf install master-pdf-editor
+  410  sudo dnf install lib64qt5printsupport5
+  417  dnf install atk.i686 avahi-libs.i686 bzip2-libs.i686 cairo.i686 cups-libs.i686 \\ndbus-libs.i686 expat.i686 fontconfig.i686 freetype.i686 fribidi.i686 \\ngdk-pixbuf2.i686 gdk-pixbuf2-modules.i686 gdk-pixbuf2-xlib.i686 \\ngdk-pixbuf2-xlib.x86_64 glib2.i686 glibc.i686 gmp.i686 gnutls.i686 \\ngraphite2.i686 gtk2.i686 harfbuzz.i686 jasper-libs.i686 jbigkit-libs.i686 \\nkeyutils-libs.i686 krb5-libs.i686 libICE.i686 libSM.i686 libX11.i686 \\nlibX11-xcb.i686 libXau.i686 libXcomposite.i686 libXcursor.i686 \\nlibXdamage.i686 libXext.i686 libXfixes.i686 libXft.i686 libXi.i686 \\nlibXinerama.i686 libXrandr.i686 libXrender.i686 libXt.i686 libXxf86vm.i686 \\nlibblkid.i686 libcap.i686 libcom_err.i686 libdatrie.i686 libdrm.i686 \\nlibffi.i686 libgcc.i686 libgcrypt.i686 libglvnd.i686 libglvnd-glx.i686 \\nlibgpg-error.i686 libidn.i686 libidn2.i686 libjpeg-turbo.i686 libmount.i686 \\nlibpciaccess.i686 libpng.i686 libselinux.i686 libsepol.i686 libstdc++.i686 \\nlibtasn1.i686 libthai.i686 libtiff.i686 libunistring.i686 libuuid.i686 \\nlibverto.i686 libxcb.i686 libxcrypt.i686 libxml2.i686 libxshmfence.i686 \\nlz4-libs.i686 mesa-libGL.i686 mesa-libGLU.i686 mesa-libGLU.x86_64 \\nmesa-libglapi.i686 nettle.i686 openssl-libs.i686 p11-kit.i686 pango.i686 \\npangox-compat.i686 pangox-compat.x86_64 pcre.i686 pcre2.i686 pixman.i686 \\nsystemd-libs.i686 xz-libs.i686 zlib.i686 libidn.x86_64 \\nlibidn.i686 coreutils.x86_64
+  418  sudo dnf install atk.i686 avahi-libs.i686 bzip2-libs.i686 cairo.i686 cups-libs.i686 \\ndbus-libs.i686 expat.i686 fontconfig.i686 freetype.i686 fribidi.i686 \\ngdk-pixbuf2.i686 gdk-pixbuf2-modules.i686 gdk-pixbuf2-xlib.i686 \\ngdk-pixbuf2-xlib.x86_64 glib2.i686 glibc.i686 gmp.i686 gnutls.i686 \\ngraphite2.i686 gtk2.i686 harfbuzz.i686 jasper-libs.i686 jbigkit-libs.i686 \\nkeyutils-libs.i686 krb5-libs.i686 libICE.i686 libSM.i686 libX11.i686 \\nlibX11-xcb.i686 libXau.i686 libXcomposite.i686 libXcursor.i686 \\nlibXdamage.i686 libXext.i686 libXfixes.i686 libXft.i686 libXi.i686 \\nlibXinerama.i686 libXrandr.i686 libXrender.i686 libXt.i686 libXxf86vm.i686 \\nlibblkid.i686 libcap.i686 libcom_err.i686 libdatrie.i686 libdrm.i686 \\nlibffi.i686 libgcc.i686 libgcrypt.i686 libglvnd.i686 libglvnd-glx.i686 \\nlibgpg-error.i686 libidn.i686 libidn2.i686 libjpeg-turbo.i686 libmount.i686 \\nlibpciaccess.i686 libpng.i686 libselinux.i686 libsepol.i686 libstdc++.i686 \\nlibtasn1.i686 libthai.i686 libtiff.i686 libunistring.i686 libuuid.i686 \\nlibverto.i686 libxcb.i686 libxcrypt.i686 libxml2.i686 libxshmfence.i686 \\nlz4-libs.i686 mesa-libGL.i686 mesa-libGLU.i686 mesa-libGLU.x86_64 \\nmesa-libglapi.i686 nettle.i686 openssl-libs.i686 p11-kit.i686 pango.i686 \\npangox-compat.i686 pangox-compat.x86_64 pcre.i686 pcre2.i686 pixman.i686 \\nsystemd-libs.i686 xz-libs.i686 zlib.i686 libidn.x86_64 \\nlibidn.i686 coreutils.x86_64
+  422  dnf install libcanberra-gtk2.i686 adwaita-gtk2-theme.i686 PackageKit-gtk3-module.i686\n
+  423  sudo dnf install libcanberra-gtk2.i686 adwaita-gtk2-theme.i686 PackageKit-gtk3-module.i686\n
+  428  sudo dnf install foxit-reader
+  459  sudo dnf install ffmpeg-libs
+  460  sudo dnf install ffmpeg
+  461  sudo dnf install x264
+  464  sudo dnf install opus
+  468  sudo dnf install chromium-codecs-ffmpeg
+  469  sudo dnf install chromium
+  498  dnf install i3status
+  499  sudo dnf install i3status
+  527  sudo dnf install compton
+  586  sudo dnf install compton
+  817  sudo dnf install octave
+  822  sudo dnf install octave-devel-6:5.1.0-
+  823  sudo dnf install octave-devel
+  851  sudo dnf install simple-scan
+  853  sudo dnf install skanlite
+  861  sudo dnf install sane-backends
+  882  sudo dnf install https://download1.rpmfusion.org/\{free/fedora/rpmfusion-free,nonfree/fedora/rpmfusion-nonfree\}-release-$\(rpm -E %fedora).noarch.rpm\n
+  883  dnf install ffmpeg-libs compat-ffmpeg28\n
+  884  sudo dnf install ffmpeg-libs compat-ffmpeg28\n
+  885  dnf install gstreamer1-libav gstreamer1-plugins-ugly\n
+  886  sudo dnf install gstreamer1-libav gstreamer1-plugins-ugly\n
+  887  dnf install https://download1.rpmfusion.org/\{free/fedora/rpmfusion-free,nonfree/fedora/rpmfusion-nonfree\}-release-$\(rpm -E %fedora).noarch.rpm\n
+  888  sudo dnf install https://download1.rpmfusion.org/\{free/fedora/rpmfusion-free,nonfree/fedora/rpmfusion-nonfree\}-release-$\(rpm -E %fedora).noarch.rpm\n
+  889  dnf install https://download1.rpmfusion.org/\{free/fedora/rpmfusion-free,nonfree/fedora/rpmfusion-nonfree\}-release-$\(rpm -E %fedora).noarch.rpm\n
+  890  dnf install gstreamer1-libav gstreamer1-plugins-ugly unrar compat-ffmpeg28 ffmpeg-libs\n
+  891  sudo dnf install gstreamer1-libav gstreamer1-plugins-ugly unrar compat-ffmpeg28 ffmpeg-libs\n
+  895  sudo dnf install dnf install gstreamer1-libav gstreamer1-plugins-ugly unrar compat-ffmpeg28 ffmpeg-libs\n
+  896  sudo dnf install gstreamer1-libav gstreamer1-plugins-ugly unrar compat-ffmpeg28 ffmpeg-libs\n
+  953  sudo dnf install net-tools
+ 1095  sudo dnf install code
+ 1097  sudo dnf install code\n
+ 1100  sudo dnf install code\n
+ 1322  sudo dnf install pulseeffects
+ 1646  sudo dnf install openblas
+ 1652  sudo dnf install texlive
+ 1654  sudo dnf install texlive-full
+ 1655  sudo dnf install texlive-scheme-full\n
+ 1663  sudo dnf install sophos
+ 1664  sudo dnf install comodo
+ 1753  sudo dnf install chromium-77.0.3865.90-2.fc31.x86_64
+ 1757  sudo dnf install chromium-browser
+ 1758  sudo dnf install chrome
+ 1759  sudo dnf install chromium
+ 1761  sudo dnf install chromium chromedriver-81.0.4044.138-1.fc31.x86_64
+ 1763  sudo dnf install chromium-77.0.3865.90-2.fc31.x86_64 chromium-libs-media-freeworld-77.0.3865.90-2.fc31.x86_64 chromium-libs-media-freeworld-77.0.3865.90-2.fc31.x86_64
+ 1772  sudo dnf install chromium
+ 1773  sudo dnf install chromium-77.0.3865.90-2.fc31.x86_64
+ 1817  sudo dnf install flatpak
+ 1842  sudo dnf install deluge
+ 1847  sudo dnf install vlc
+ 2056  sudo dnf install hplip
+ 2315  sudo dnf install autorandr
+ 2411  sudo dnf install megasync-4.3.3.0-1.fc31.x86_64
+ 2503  sudo dnf install gimp
+ 2532  sudo dnf install libreoffice
+ 2617  sudo dnf install ibus ibus-m17n
+ 2648  sudo dnf install docker-ce docker-ce-cli containerd.io
+ 2725  sudo dnf install javafx javafx-devel
+ 3038  sudo dnf install java-1.8.0-openjdk
+ 3063  sudo dnf install -y mssql-server
+ 3074  sudo dnf install dbeaver
+ 3261  sudo dnf install nemiver
+ 3463  sudo dnf install libX11-devel
+ 3717  sudo dnf install blueman
+ 3720  sudo dnf install bluez
+ 3759  sudo dnf install windscribe-cli
+ 3904  dnf install winehq-stable
+ 3905  sudo dnf install winehq-stable
+ 3922  sudo dnf install VirtualBox-6.1
+ 3926  sudo dnf install build-essential linux-headers-`uname -r` dkms virtualbox-dkms
+ 3927  sudo dnf install libelf-dev libelf-devel elfutils-libelf-devel
+ 3929  sudo dnf install mokutil
+ 3947  sudo dnf install kernel-devel kernel-devel-5.8.16-100.fc31.x86_64
+ 3948  sudo dnf install kernel-devel
+ 3970  sudo dnf install mono-complete
+ 3972  sudo dnf install mono-devel
+ 3974  sudo dnf install mono-devel
+ 3981  sudo dnf install nant
+ 3982  sudo dnf install -y nunit nunit-gui
+ 3983  sudo dnf install nunit nunit-gui
+ 3992  sudo dnf install mono-devel
+ 3993  sudo dnf install monodevelop
+ 4005  sudo dnf install mono-complete
+ 4944  sudo dnf install dpkg
+ 5057  sudo dnf install nodejs
+ 5397  sudo dnf install putty
+ 5520  sudo dnf install ffmpep
+ 5618  sudo dnf install libdvdcss
+ 5619  dnf install dnf-utils
+ 5620  sudo dnf install dnf-utils
+ 5788  sudo dnf install google-chrome-stable
+ 5789  sudo dnf install fedora-workstation-repositories
+ 5791  sudo dnf install google-chrome-stable
+ 5920  sudo dnf install waybar
+ 5923  sudo dnf install polybar
+ 6018  sudo dnf install fontawesome-fonts
+ 6025  sudo dnf install gucharmap
+ 6212  sudo dnf install ranger
+ 6534  sudo dnf install xfce4-power-manager
+ 6702  sudo dnf install mtpfs
+ 7140  sudo dnf install gnome-color-manager-3.32.0-2.fc31.x86_64
+ 7142  sudo dnf install gnome-color-manager
+ 7256  sudo dnf install opera
+ 7284  dnf install plugin-autenticacao-gov_fedora.rpm
+ 7285  sudo dnf install plugin-autenticacao-gov_fedora.rpm
+ 7287  dnf install plugin-autenticacao-gov_fedora.rpm
+ 7288  sudo dnf install plugin-autenticacao-gov_fedora.rpm
+ 7871  sudo dnf install m4
+ 7941  sudo dnf install livecd-tools
+ 7959  history | grep "dnf install"
+ 7961  history | grep "dnf install"

@@ -1,0 +1,38 @@
+   35  sudo rpm -ivh code-*.x86_64.rpm
+   93  sudo rpm -i teams-1.3.00.5153-1.x86_64.rpm
+  394  rpm -i master-pdf-editor-4.3.89_qt5.x86_64.rpm
+  395  sudo rpm -i master-pdf-editor-4.3.89_qt5.x86_64.rpm
+  405  rpm -i master-pdf-editor5-5.0.10-1pclos2018.x86_64.rpm
+  411  sudo rpm -i lib64qt5printsupport5-5.15.0-0.beta2.1-omv4002.x86_64.rpm
+  436  rpm -i master-pdf-editor-5.4.38-qt5.x86_64.rpm
+  437  sudo rpm -i master-pdf-editor-5.4.38-qt5.x86_64.rpm
+  458  sudo rpm -i ffmpeg-libs
+  462  sudo rpm -i opus-1.3.1-1.fc30.x86_64.rpm\n
+  463  sudo rpm -i opus\n
+  859  sudo rpm -i sane-backends-1.0.28-4.fc31.x86_64.rpm
+  860  sudo rpm -i sane-backends
+  898  sudo rpm -i chromium-libs-media-freeworld
+  900  rpm -i chromium-libs-media-freeworld-77.0.3865.90-2.fc31.aarch64.rpm
+ 2410  sudo rpm -i megasync-Fedora_31.x86_64.rpm
+ 2412  sudo rpm -i nautilus-megasync-Fedora_31.x86_64.rpm
+ 2616  sudo rpm -i zoom_x86_64.rpm
+ 2618  sudo rpm -i zoom_x86_64.rpm
+ 2621  sudo rpm -i zoom_x86_64.rpm
+ 2729  sudo rpm -i jre-8u261-linux-i586.rpm
+ 2767  rpm -i jdk-15_linux-x64_bin.rpm
+ 2768  sudo rpm -i jdk-15_linux-x64_bin.rpm
+ 2770  sudo rpm -i jdk-15_linux-x64_bin.rpm
+ 2847  sudo rpm -i jdk-15_linux-x64_bin.rpm
+ 2870  sudo rpm -i scenebuilder-11.0.0-1.x86_64.rpm
+ 2981  sudo rpm -i jdk-15_linux-x64_bin.rpm
+ 2984  sudo rpm -i jdk-15_linux-x64_bin.rpm
+ 3076  rpm -i dbeaver-ce-7.2.1-stable.x86_64.rpm
+ 3077  sudo rpm -i dbeaver-ce-7.2.1-stable.x86_64.rpm
+ 3916  sudo rpm -i VirtualBox-6.1-6.1.16_140961_fedora31-1.x86_64.rpm
+ 4486  rpm -i dbeaver-ce-7.2.4-stable.x86_64.rpm
+ 4487  sudo rpm -i dbeaver-ce-7.2.4-stable.x86_64.rpm
+ 4690  sudo rpm -i nautilus-megasync-Fedora_31.x86_64.rpm
+ 4817  sudo rpm -i teamviewer_15.11.6.x86_64.rpm
+ 7785  sudo rpm -i gitkraken-amd64.rpm
+ 7793  sudo rpm -i ferdi-5.5.0.x86_64.rpm
+ 7960  history | grep "rpm -i"
