@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/rguerra/.oh-my-zsh"
+export ZSH="/home/raquel/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -12,7 +12,7 @@ ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
+# a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
@@ -33,7 +33,7 @@ ZSH_THEME="robbyrussell"
 # export UPDATE_ZSH_DAYS=13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS=true
+# DISABLE_MAGIC_FUNCTIONS="true"
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -45,6 +45,8 @@ ZSH_THEME="robbyrussell"
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
+# Caution: this setting can cause issues with multiline prompts (zsh 5.7.1 and newer seem to work)
+# See https://github.com/ohmyzsh/ohmyzsh/issues/5765
 # COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
@@ -64,11 +66,11 @@ ZSH_THEME="robbyrussell"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Which plugins would you like to load?
-# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git wakatime)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -97,47 +99,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# opam configuration
-test -r /home/rguerra/.opam/opam-init/init.zsh && . /home/rguerra/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
-
-## kakadu
-PATH=$PATH:~/kakadu/bin
-LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/kakadu/bin
-export LD_LIBRARY_PATH
-
-
-export ANDROID_HOME=$HOME/Android/Sdk
-export ANDROID_SDK_ROOT=$HOME/Android/Sdk
-export PATH=$PATH:$ANDROID_HOME
-
-alias i3config="code ~/.config/i3/config"
-alias zshconfig="code ~/.zshrc"
-
-alias up="sudo dnf update"
-
-alias monitor_both="~/.screenlayout/home.sh"
-alias monitor_wide_both="~/.screenlayout/ultrawide.sh"
-alias monitor_hdmi="~/.screenlayout/hdmi.sh"
-alias monitor_laptop="~/.screenlayout/laptop.sh"
-
-alias audio_laptop="pacmd set-card-profile 0 output:analog-stereo+input:analog-stereo"
-alias audio_hdmi="pacmd set-card-profile 0 output:hdmi-stereo"
-
-alias us_layout="setxkbmap -layout us -variant intl"
-alias pt_layout="setxkbmap -layout pt"
-
-alias im_home="us_layout && ~/.screenlayout/home.sh"
-alias release="us_layout && ~/.screenlayout/release.sh"
-
-alias cl="/home/rguerra/.clear_lsla.sh"
-
-alias rmd="rm -r "
-alias encd="zip --encrypt -r "
-alias dec="unzip "
-
-alias speed='speedtest-cli'
-alias netbeans='/home/rguerra/netbeans-11.1/netbeans/bin/netbeans'
-alias packettracer='/opt/pt/packettracer'
-
-# classes

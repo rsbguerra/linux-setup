@@ -32,11 +32,11 @@ font pango:Sans 10
 # apps shortcuts
 bindsym $mod+c exec code
 bindsym $mod+g exec firefox
-bindsym $mod+Shift+d exec Discord
+bindsym $mod+Shift+d exec discord
 bindsym $mod+m exec spotify
 bindsym $mod+n exec nautilus
 bindsym $mod+p exec masterpdfeditor5
-bindsym $mod+t exec telegram-desktop
+bindsym $mod+t exec telegram
 bindsym $mod+Shift+t exec teams
 bindsym $mod+Shift+f exec ferdi
 bindsym $mod+Escape exec i3lock -c 000000
@@ -168,7 +168,7 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
-exec_always --no-startup-id dunst -conf /home/rguerra/.config/dunstrc/dunstrc
+exec_always --no-startup-id dunst -conf $HOME/.config/dunstrc/dunstrc
 exec_always --no-startup-id nm-applet
 
 
@@ -193,7 +193,7 @@ new_window 1pixel
 
 ## i3blocks
 #bar {
-#        status_command i3status -c /home/rguerra/.config/i3status/i3status.conf
+#        status_command i3status -c $HOME/.config/i3status/i3status.conf
 #        position top
 #        colors {
 #    	        background $bg-color
@@ -222,13 +222,11 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86AudioMute exec amixer -q set Master 0
 
 # increase screen brightness
-# bindsym XF86MonBrightnessUp exec xbacklight -inc 5
-# bindsym XF86MonBrightnessDown exec xbacklight -dec 5
-bindsym XF86MonBrightnessDown exec light -U 0.8
-bindsym XF86MonBrightnessUp exec light -A 0.8
+bindsym XF86MonBrightnessUp   exec --no-startup-id brillo -A 5 
+bindsym XF86MonBrightnessDown exec --no-startup-id brillo -U 5 
 
-bindsym $mod+Ctrl+Left exec light -U 0.8
-bindsym $mod+Ctrl+Right exec light -A 0.8
+bindsym $mod+Ctrl+Right exec --no-startup-id brillo -A 3 
+bindsym $mod+Ctrl+Left  exec --no-startup-id brillo -U 3 
 
 # screenshot key binding 
 bindsym Shift+Print exec scrot -e 'mv $f ~/Pictures/screenshots/%s_%H%M_%d.%m.%Y_$wx$h.png'
@@ -240,7 +238,7 @@ exec_always xinput set-prop 'ETPS/2 Elantech Touchpad' 'libinput Tapping Enabled
 
 
 # backgroud and compton
-exec_always /home/rguerra/.config/i3/randomWallpaper.sh
+exec_always $HOME/.config/i3/randomWallpaper.sh
 
 exec --no-startup-id compton -D 3 --backend glx --vsync opengl-swc --paint-on-overlay --glx-no-stencil
 

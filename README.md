@@ -2,16 +2,17 @@
 im too lazy to doc this
 
 ## Packages to install
-- [ ] i3
+- [x] i3
 - [ ] i3lock
-- [ ] polybar
+- [x] polybar
 - [ ] arandr
-- [ ] dunst
+- [x] dunst
 - [ ] neofetch
+' [ ] nautilus
 - [ ] alsa-utils
 - [ ] nnn 
 - [ ] adb 
-- [ ] gparted
+- [x] gparted
 - [ ] compton
 - [ ] master-pdf-editor
 - [ ] ffmpeg
@@ -20,14 +21,16 @@ im too lazy to doc this
 - [ ] vlc
 - [ ] autorandr
 - [ ] megasync
-- [ ] vscode
-- [ ] telegram
-- [ ] spotify
-- [ ] discord
+- [x] vscode
+- [x] telegram
+- [x] spotify
+- [x] discord
 - [ ] ferdi
-- [ ] python
-- [ ] teams
+- [x] python
+- [x] teams
 - [ ] zoom
 - [ ] teamviewer
 - [ ] nautilus-megasync
 - [ ] gitkraken
+
+ cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-image0-dev libxcb-randr0-dev libxcb-util0-dev libxcb-xkb-dev pkg-config python3-xcbgen xcb-proto libxcb-xrm-dev libasound2-dev libmpdclient-dev libiw-dev libcurl4-openssl-dev libpulse-dev
