@@ -208,10 +208,10 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 
 # Media volume controls
-bindsym XF86AudioRaiseVolume exec amixer -q set Master 4%+ 
-bindsym XF86AudioLowerVolume exec amixer -q set Master 4%-
-bindsym $mod+Ctrl+Up exec amixer -q set Master 4%+
-bindsym $mod+Ctrl+Down exec amixer -q set Master 4%-
+bindsym XF86AudioRaiseVolume exec amixer -q set Master 3%+
+bindsym XF86AudioLowerVolume exec amixer -q set Master 3%-
+bindsym $mod+Ctrl+Up exec amixer -q set Master 3%+
+bindsym $mod+Ctrl+Down exec amixer -q set Master 3%-
 
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
