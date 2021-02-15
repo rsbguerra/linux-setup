@@ -14,7 +14,7 @@ stack_duplicates      = no
 hide_duplicates_count = yes
 geometry              = "300x50-30+42"
 shrink                = no
-transparency          = 10
+transparency          = 35
 idle_threshold        = 0
 monitor               = 0
 follow                = mouse
@@ -46,13 +46,13 @@ context   = ctrl+shift+period
 
 [urgency_low]
 frame_color = "#191A21"
-foreground  = "#afafaf"
+foreground  = "#f8f8f2"
 background  = "#191A21"
 timeout     = 6
 
 [urgency_normal]
 frame_color = "#191A21"
-foreground  = "#afafaf"
+foreground  = "#f8f8f2"
 background  = "#191A21"
 #background = "#2B313C"
 timeout     = 6

@@ -190,6 +190,7 @@ client.background       $bg-color           $bg-color           $bg-color       
 
 # disable title bar
 new_window 1pixel
+for_window [class="^.*"] border pixel 0
 
 ## i3blocks
 #bar {
@@ -240,7 +241,8 @@ exec_always xinput set-prop 'ETPS/2 Elantech Touchpad' 'libinput Tapping Enabled
 # backgroud and compton
 exec_always $HOME/.config/i3/randomWallpaper.sh
 
-exec --no-startup-id compton -D 3 --backend glx --vsync opengl-swc --paint-on-overlay --glx-no-stencil
+exec compton --conf $HOME/Documents/linux-setup/.config/compton/compton.conf
 
-#exec --no-startup-id compton -f -D 3 
+#exec --no-startup-id compton -D 3 --backend glx --vsync opengl-swc --paint-on-overlay --glx-no-stencil
+#exec --no-startup-id compton -f -D 3 --blur-background
 #exec --no-startup-id compton --config ~/.config/i3/compton_test.conf -f -b
