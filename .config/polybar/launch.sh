@@ -8,13 +8,14 @@ while pgrep -x polybar >/dev/null; do sleep 1; done
 
 CONFIG=""
 
-if xrandr | grep "HDMI-1 connected" > /dev/null; then
+if xrandr | grep "HDMI-1 connected primary" > /dev/null; then
     CONFIG="config-hdmi.ini"
+    # Attemp to launch external monitor polybar (Fails if extmon isn't present)
+    polybar extmon -c $(dirname $0)/$CONFIG &
 else 
     CONFIG="config.ini"
 fi
 
 # Launch polybar
 polybar primary -c $(dirname $0)/$CONFIG &
-# Attemp to launch external monitor polybar (Fails if extmon isn't present)
-polybar extmon -c $(dirname $0)/$CONFIG &
+

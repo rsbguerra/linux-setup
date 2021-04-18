@@ -205,6 +205,8 @@ for_window [class="^.*"] border pixel 0
 #                urgent_workspace        $urgent-bg-color   $urgent-bg-color   $text-color
 #	}
 #}
+
+exec_always im_home
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 

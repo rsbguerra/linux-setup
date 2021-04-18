@@ -27,10 +27,13 @@ MiscSlimTabs=TRUE
 MiscNewTabAdjacent=FALSE
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=FALSE
-ColorPalette=rgb(68,71,90);rgb(255,85,85);rgb(80,250,123);rgb(255,184,108);rgb(139,233,253);rgb(189,147,249);rgb(255,121,198);rgb(148,163,165);rgb(8,9,18);rgb(255,85,85);rgb(80,250,123);rgb(255,184,108);rgb(139,233,253);rgb(189,147,249);rgb(255,121,198);rgb(255,255,255)
 FontName=Monospace 13
 WordChars=
-ColorBackground=#19191a1a2121
-TabActivityColor=#ffff7979c6c6
-BackgroundDarkness=0,510000
+BackgroundDarkness=0,560000
+ColorPalette=#44475a;#ff5555;#50fa7b;#ffb86c;#8be9fd;#bd93f9;#ff79c6;#94A3A5;#000000;#ff5555;#50fa7b;#ffb86c;#8be9fd;#bd93f9;#ff79c6;#ffffff
+ColorForeground=#94A3A5
+ColorBackground=#282a36
+ColorCursor=#ffffffffffff
+ColorCursorUseDefault=FALSE
+ColorUseTheme=TRUE
 
