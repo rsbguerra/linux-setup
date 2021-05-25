@@ -21,5 +21,6 @@
     <property name="handle-brightness-keys" type="bool" value="true"/>
     <property name="general-notification" type="bool" value="true"/>
     <property name="presentation-mode" type="bool" value="false"/>
+    <property name="inactivity-on-battery" type="uint" value="14"/>
   </property>
 </channel>
